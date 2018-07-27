@@ -1,0 +1,14 @@
+[package]
+name = "strsim-rspy"
+version = "0.1.0"
+
+[lib]
+name = "strsimrs"
+crate-type = ["cdylib"]
+
+[dependencies]
+strsim = "0.7.0"
+
+[dependencies.pyo3]
+version = "0.3"
+features = ["extension-module"]
